@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
-const VERIFY_TOKEN = process.env.VERIFY_TOKEN || "vibecode";
+const VERIFY_TOKEN = process.env.VERIFY_TOKEN || "LIKHITHA";
 
 function makeWebhook(name) {
   // GET = Meta's one-time handshake
